@@ -95,7 +95,7 @@ h2{
 }
 
 .xButton:active{
-  transform: scale(0.1);
+  transform: scale(1);
   background-color: #ffb9c2;
   color: red;
 }
