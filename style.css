@@ -17,6 +17,9 @@ body{
   text-align: center;
   width: 100%;
   padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1{
@@ -40,7 +43,7 @@ h1{
   border-radius: 8px;
   padding: 1rem;
   min-height: 400px;
-  width: 30%;
+  width: 100%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -48,7 +51,7 @@ h1{
   background-color: #d1d3d8;
 }
 
-.list h2{
+h2{
   color: #555;
   margin-bottom: 1rem;
   font-size: 1.5rem;
@@ -103,7 +106,14 @@ h1{
   flex-direction: column;
   align-items: center;
   margin-bottom: 20px;
-  /*border: solid red 2px;*/
+  width: 100%;
+  border-radius: 8px;
+  background-color: #e3e4e8;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.form-container h2{
+  margin-bottom: 15px;
 }
 
 .form-group{
@@ -128,7 +138,7 @@ input, select, button{
     align-items: center;
   }
 
-  .list{
+  .list, .form-container{
     width: 80%;
     margin-bottom: 20px;
   }
