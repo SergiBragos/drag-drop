@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kanban board</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Simple Kanban Board</h1>
+
+    <div class="form-container">
+      <h2>Add new card</h2>
+
+      <!--Comença el formulari-->
+      <form id="card-form">
+        <!--Primer camp: description (text)-->
+        <div class="form-group">
+          <label for="description">Description</label>
+          <input type="text" id="description" placeholder="Enter description..." required />
+        </div>
+        <!--Segon camp: list (picklist)-->
+        <div class="form-group">
+          <label for="category">Add to</label>
+          <select id="category" required>
+            <option value="" selected disabled>Select category...</option>
+            <option value="to-do">To Do</option>
+            <option value="in-progress">In progress</option>
+            <option value="done">Done</option>
+          </select>
+        </div>
+        <!--botó de submit-->
+        <button type="submit">Add transaction</button>
+      </form>
+    </div>
+
+    <div class="board">
+      
+      <!--Elements llista que contenen les targetes-->
+      <div class="list" id="to-do">
+        <h2>To do</h2>
+        <div class="card" id="exemple" draggable="true">Exemple</div>
+      </div>
+
+      <div class="list" id="in-progress">
+        <h2>In progress</h2>
+      </div>
+      
+      <div class="list" id="done">
+        <h2>Done</h2>
+      </div>
+    
+    </div>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
