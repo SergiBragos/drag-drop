@@ -39,7 +39,7 @@ h1{
 }
 
 .list{
-  background-color: #e3e4e8;
+  background-color: #cfd0d4;
   border-radius: 8px;
   padding: 1rem;
   min-height: 400px;
@@ -108,7 +108,7 @@ h2{
   margin-bottom: 20px;
   width: 100%;
   border-radius: 8px;
-  background-color: #e3e4e8;
+  background-color: #cfd0d4;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
