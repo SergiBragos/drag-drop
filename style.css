@@ -95,7 +95,7 @@ h2{
 }
 
 .xButton:active{
-  transform: scale(1);
+  transform: scale(0.1);
   background-color: #ffb9c2;
   color: red;
 }
@@ -113,7 +113,7 @@ h2{
 }
 
 .form-container h2{
-  margin-bottom: 15px;
+  margin: 15px;
 }
 
 .form-group{
@@ -129,7 +129,7 @@ input, select, button{
   padding: 8px;
   font-size: 14px;
   border-radius: 5px;
-  margin: 4px;
+  margin-bottom: 15px;
 }
 
 @media (max-width:780px){
